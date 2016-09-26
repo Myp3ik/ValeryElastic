@@ -1,15 +1,27 @@
-.footer {
-    position: absolute;
-    bottom: 53px;
-    left: 52px;
-    width: 100px;
-    /*height: 52px;*/
-    color: white;
-
-    /*font-family: Roboto;*/
+/*
+ * Footer
+ */
+.base-footer {
+    font-family: 'Roboto', sans-serif;
     font-size: 11px;
-    font-weight: 400;
-    /* Text style for "the" */
-    /*font-family: LibreBaskerville;*/
-    /*font-style: italic;*/
+    font-size: 0.572916667vw;
+
+    color: #ffffff;
+    /*IE8 proofing */
+    color: rgba(255, 255, 255, 1);
+    position: fixed;
+    bottom: 54px;
+    bottom: 4.5vh;
+
+    left: 52px;
+    left: 2.708333333vw;
+    text-align: left;
+}
+
+.base-footer a {
+    color: #fff;
+}
+
+.base-footer a:hover {
+    color: #999;
 }
