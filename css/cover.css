@@ -1,0 +1,234 @@
+/*
+!*
+ * Globals
+ *!
+
+!* Links *!
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+!* Custom default button *!
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+!*
+ * Base structure
+ *!
+
+html,
+body {
+    height: 100%;
+    background-color: #000;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+}
+
+body {
+    color: #fff;
+    text-align: center;
+}
+
+!* Extra markup and styles for table-esque vertical and horizontal centering *!
+.site-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%; !* For at least Firefox *!
+    min-height: 100%;
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.cover-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+!* Padding for spacing *!
+.inner {
+    !*padding: 30px;*!
+}
+
+!*
+ * Header
+ *!
+.text-logo {
+    margin-top: 0.93vh;
+    margin-bottom: 0.93vh;
+}
+
+.menu-nav > li {
+    display: inline-block;
+}
+
+.menu-nav > li + li {
+    margin-left: 1.04vw;
+}
+
+.menu-nav > li > a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.04vw;
+    font-weight: 700;
+    line-height: 1.48vh;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+
+.menu-nav > li > a:hover,
+.menu-nav > li > a:focus {
+    background-color: transparent;
+    border-bottom-color: #a9a9a9;
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.menu-nav > .active > a,
+.menu-nav > .active > a:hover,
+.menu-nav > .active > a:focus {
+    color: #000;
+    background-color: #fff200;
+}
+
+.menu-nav > .active:after {
+    content: "";
+    position: absolute;
+    left: 1.92vw;
+    border-top: 1.3vh solid #fff200;
+    border-right: 0.68vw solid transparent;
+    border-left: 0.68vw solid transparent;
+    border-bottom: 1.2vh solid transparent;
+}
+
+.nav > li > a {
+    padding: 1.93vh 0.94vw 1.93vh 0.94vw;
+}
+
+.bg_logo {
+    z-index: -2;
+    width: 50%;
+    height: 50%;
+}
+
+.ve_logo {
+    width: 38.38541666666667%;
+    height: 41.58333333333333%;
+    z-index: -1;
+    margin: 0;
+}
+
+!*
+ * Cover
+ *!
+
+.cover {
+    padding: 19% 0 0 11.19791666666667%;
+}
+
+.cover .btn-lg {
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+!*
+ * Footer
+ *!
+
+.base-footer {
+    color: #999; !* IE8 proofing *!
+    color: rgba(255, 255, 255, .5);
+}
+
+!*
+ * Affix and center
+ *!
+
+@media (min-width: 1200px) {
+    .base-header,
+    .base-footer,
+    .cover-container {
+        width: 1200px;
+    }
+
+    .text-logo {
+        float: left;
+    }
+
+    .menu-nav {
+        !*padding: 30px;*!
+        padding: 1.56vw;
+        float: right;
+    }
+
+    !* Pull out the header and footer *!
+    .base-header {
+        position: fixed;
+        top: 0;
+    }
+
+    .base-footer {
+        position: fixed;
+        bottom: 52px;
+        text-align: left;
+    }
+
+    !* Start the vertical centering *!
+    .site-wrapper-inner {
+        vertical-align: middle;
+    }
+
+    !* Handle the widths *!
+    .base-header,
+    .base-footer,
+    .cover-container {
+        width: 100%; !* Must be percentage or pixels for horizontal alignment *!
+    }
+}
+
+@media (min-width: 750px) and (max-width: 1199px) {
+    .text-logo {
+        float: left;
+    }
+
+    .menu-nav {
+        !*padding: 30px;*!
+        padding: 1.56vw;
+        float: right;
+    }
+
+    !* Pull out the header and footer *!
+    .base-header {
+        position: fixed;
+        top: 0;
+    }
+
+    .base-footer {
+        position: fixed;
+        bottom: 52px;
+        text-align: left;
+    }
+
+    !* Start the vertical centering *!
+    .site-wrapper-inner {
+        vertical-align: middle;
+    }
+
+    !* Handle the widths *!
+    .base-header,
+    .base-footer,
+    .cover-container {
+        width: 100%; !* Must be percentage or pixels for horizontal alignment *!
+    }
+
+    .bg_logo {
+        visibility: hidden;
+    }
+}
+*/

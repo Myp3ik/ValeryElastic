@@ -1,0 +1,15 @@
+.footer {
+    position: absolute;
+    bottom: 53px;
+    left: 52px;
+    width: 100px;
+    /*height: 52px;*/
+    color: white;
+
+    /*font-family: Roboto;*/
+    font-size: 11px;
+    font-weight: 400;
+    /* Text style for "the" */
+    /*font-family: LibreBaskerville;*/
+    /*font-style: italic;*/
+}
