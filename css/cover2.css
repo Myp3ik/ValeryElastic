@@ -58,7 +58,8 @@ a:hover {
     margin-left: auto;
 }
 
-.inner {
+.inner .row {
+    margin: 0;
 }
 
 /*
@@ -175,6 +176,7 @@ hr {
 }
 
 .info-item {
+    padding: 0;
     font-size: 20px;
     font-size: 1.04vw;
     font-weight: 300;
