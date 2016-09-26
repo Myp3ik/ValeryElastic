@@ -90,16 +90,23 @@ a:hover {
 }
 
 .menu-nav > li + li {
+    margin-left: 20px;
     margin-left: 1.04vw;
 }
 
 .menu-nav > li > a {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.04vw;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+
     font-weight: 700;
-    line-height: 1.48vh;
     color: #fff;
     border-bottom: 2px solid transparent;
+
+    font-size: 20px;
+    font-size: 1.04vw;
+
+    line-height: 16px;
+    line-height: 0.83vw;
 }
 
 .menu-nav > li > a:hover,
@@ -120,14 +127,15 @@ a:hover {
     content: "";
     position: absolute;
     left: 1.92vw;
-    border-top: 1.3vh solid #fff200;
-    border-right: 0.68vw solid transparent;
-    border-left: 0.68vw solid transparent;
-    border-bottom: 1.2vh solid transparent;
+    border-top: 0.833vw solid #fff200;
+    border-right: 0.677vw solid transparent;
+    border-left: 0.677vw solid transparent;
+    border-bottom: 0.677vw solid transparent;
 }
 
 .nav > li > a {
-    padding: 1.93vh 0.94vw 1.93vh 0.94vw;
+    padding: 13px 16px 13px 16px;
+    padding: 0.677vw 0.833vw 0.677vw 0.833vw;
 }
 
 .bg_logo {
