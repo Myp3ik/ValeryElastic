@@ -140,9 +140,10 @@ a:hover {
 
 .bg_logo {
     z-index: -2;
-    width: 50%;
-    height: 50%;
+    width: 43%;
     float: right;
+    margin-top: 30px;
+    margin-top: -1.56vw;
 }
 
 /*
@@ -238,12 +239,14 @@ hr {
 }
 
 .socialmedia {
+    vertical-align: middle;
+
     width: 32px;
-    /*width: 1.666666667vw;*/
     width: 2.2vw;
+
     height: 32px;
-    /*height: 2.666666667vh;*/
     height: 2.2vw;
 
-    vertical-align: middle;
+    margin: 15px 10px 0 0;
+    margin: 0.78vw 0.52vw 0 0;
 }
