@@ -142,6 +142,7 @@ a:hover {
     z-index: -2;
     width: 43%;
     float: right;
+
     margin-top: 30px;
     margin-top: -1.56vw;
 }
@@ -168,50 +169,42 @@ hr {
 }
 
 .info-block {
-    padding-top: 27%;
-    padding-left: 11.19791667vw;
+    padding-top: 26%;
+
+    padding-left: 215px;
+    padding-left: 11.198vw;
+
     text-align: left;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
 
 .info-block > h1 {
+    font-weight: 700;
+
     font-size: 58px;
     font-size: 3.02vw;
 
-    font-weight: 700;
-    line-height: 60px;
-    line-height: 5vh;
+    line-height: 96px;
+    line-height: 5vw;
 }
 
 .info-item {
     padding: 0;
+    font-weight: 300;
+
     font-size: 20px;
     font-size: 1.04vw;
-    font-weight: 300;
-    line-height: 60px;
-    line-height: 5vh;
-}
-
-.info-item > label {
-    font-size: 30px;
-    font-size: 1.56vw;
-    font-weight: 700;
-}
-
-.info-item > span {
-    font-size: 20px;
-    font-size: 1.04vw;
-    font-weight: 300;
 }
 
 .sub-menu-header {
     line-height: 60px;
-    line-height: 5vh;
+    line-height: 3.2vw;
 
     font-size: 30px;
     font-size: 1.56vw;
 
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
@@ -222,8 +215,8 @@ hr {
     font-size: 20px;
     font-size: 1.04vw;
 
-    line-height: 28px;
-    line-height: 2.333333333vw;
+    line-height: 57px;
+    line-height: 3vw;
 }
 
 .sub-menu-body + p {
@@ -232,10 +225,7 @@ hr {
     font-style: italic;
 
     font-size: 14px;
-    font-size: 0.729166667vw;
-
-    line-height: 19px;
-    line-height: 1.5833vh;
+    font-size: 0.73vw;
 }
 
 .socialmedia {
