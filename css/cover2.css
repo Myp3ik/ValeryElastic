@@ -161,8 +161,12 @@ a:hover {
 /*}*/
 
 hr {
-    width: 7.03125vw;
-    height: 0.666666667vh;
+    width: 135px;
+    width: 7.03vw;
+
+    height: 8px;
+    height: 0.42vw;
+
     background: #fff200;
     margin: 0;
     padding: 0;
@@ -195,6 +199,11 @@ hr {
 
     font-size: 20px;
     font-size: 1.04vw;
+
+    float: left;
+
+    width: 285px;
+    width: 14.8vw;
 }
 
 .sub-menu-header {
