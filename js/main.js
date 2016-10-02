@@ -1,5 +1,6 @@
-setLang(0); //Englsh
-
+function onLoad() {
+    setLang(0); //Englsh
+}
 
 function setLang(langId) {
     if (langId === 0) {
