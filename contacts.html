@@ -4,29 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <title>ValeryElastic</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
-
-    <!-- Custom styles for this template -->
-    <!--<link href="css/cover.css" rel="stylesheet">-->
-
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/contacts.css"/>
     <link rel="stylesheet" href="css/footer.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i|Roboto:300">
 
-    <link rel="stylesheet" href="css/cover2.css">
-
-    <!--&lt;!&ndash; HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries &ndash;&gt;-->
-    <!--&lt;!&ndash;[if lt IE 9]>-->
-    <!--<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>-->
-    <!--<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
-    <!--<![endif]&ndash;&gt;-->
+    <link rel="stylesheet" href="css/contacts.css">
 </head>
 
 <body>
@@ -38,11 +27,11 @@
                     <img class="text-logo unselectable" src="img/logo-contacts.png"/>
                     <nav>
                         <ul class="nav menu-nav">
-                            <li class=""><a href="#">Scène</a></li>
-                            <li class=""><a href="#">Bio</a></li>
-                            <li class=""><a href="#">Awards</a></li>
-                            <li class=""><a href="#">Gallery</a></li>
-                            <li class=" active"><a href="contacts.html">Contact</a></li>
+                            <li><a href="#">Scène</a></li>
+                            <li><a href="#">Bio</a></li>
+                            <li><a href="#">Awards</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li class="active"><a href="contacts.html">Contact</a></li>
                         </ul>
                     </nav>
                     <img class="bg_logo unselectable" src="img/bg_contacts_part.png"/>
@@ -80,7 +69,11 @@
                 <p>Valery the Elastic</p>
                 <p>Copyright, year 2016</p>
                 <br/>
-                <p><a>Latviešu</a> <a>Русский</a></p>
+                <p>
+                    <a id="lang2" onclick="setLang(2)">Latviešu</a>
+                    <a id="lang1" onclick="setLang(1)">Русский</a>
+                    <a id="lang0" onclick="setLang(0)">English</a>
+                </p>
             </footer>
         </div>
 
@@ -89,5 +82,6 @@
 
 <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
