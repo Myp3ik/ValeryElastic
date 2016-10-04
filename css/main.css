@@ -133,3 +133,18 @@ a:hover {
     padding: 13px 16px 13px 16px;
     padding: 0.677vw 0.833vw 0.677vw 0.833vw;
 }
+
+hr {
+    width: 135px;
+    width: 7.03vw;
+
+    height: 8px;
+    height: 0.42vw;
+
+    background: #fff200;
+    margin: 0;
+    padding: 0;
+
+    /* Fix for IE */
+    text-align: left;
+}

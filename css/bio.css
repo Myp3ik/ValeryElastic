@@ -109,21 +109,6 @@ body {
     line-height: 2.19vw;
 }
 
-hr {
-    width: 135px;
-    width: 7.03vw;
-
-    height: 8px;
-    height: 0.42vw;
-
-    background: #fff200;
-    margin: 0;
-    padding: 0;
-
-    /* Fix for IE */
-    text-align: left;
-}
-
 /*
  * Footer
  */
@@ -136,5 +121,5 @@ hr {
 }
 
 .base-footer a:hover {
-    color: white;
+    color: #fff;
 }

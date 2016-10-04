@@ -88,36 +88,6 @@
     margin: 0.78vw 0.52vw 0 0;
 }
 
-hr {
-    width: 135px;
-    width: 7.03vw;
-
-    height: 8px;
-    height: 0.42vw;
-
-    background: #fff200;
-    margin: 0;
-    padding: 0;
-
-    /* Fix for IE */
-    text-align: left;
-}
-
-/*
-* Footer
-*/
-.base-footer {
-    color: #ffffff;
-}
-
-.base-footer a {
-    color: #fff;
-}
-
-.base-footer a:hover {
-    color: #999;
-}
-
 /*
 * Resize for small screens
 */
