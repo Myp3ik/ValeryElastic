@@ -1,3 +1,7 @@
+body {
+    background: #000;
+}
+
 .bg_logo {
     z-index: -2;
     width: 43%;
