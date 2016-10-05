@@ -64,6 +64,7 @@ a:hover {
 .base-header {
     position: fixed;
     top: 0;
+    height: 0;
 }
 
 .text-logo {
