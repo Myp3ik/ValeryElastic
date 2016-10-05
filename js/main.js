@@ -18,7 +18,7 @@ function setLang(langId) {
     }
 }
 
-var scenes = ["scene.html", "scene_pierrot.html"];
+var scenes = ["scene-iguana.html", "scene-pierrot.html"];
 
 function prevScene(current) {
     window.location.href = scenes[(scenes.length + current - 1) % scenes.length];
