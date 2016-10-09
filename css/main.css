@@ -79,6 +79,7 @@ a:hover {
     padding: 30px;
     padding: 1.56vw;
     float: right;
+    font-size: 0;
 }
 
 .menu-nav > li {
@@ -93,10 +94,12 @@ a:hover {
 .menu-nav > li > a {
     font-family: 'Roboto', sans-serif;
     text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    text-shadow: 0 0.05vw 0.05vw rgba(0, 0, 0, .5);
 
     font-weight: 500;
     color: #fff;
     border-bottom: 2px solid transparent;
+    border-bottom: 0.1vw solid transparent;
 
     font-size: 20px;
     font-size: 1.04vw;
