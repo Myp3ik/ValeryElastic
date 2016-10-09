@@ -39,16 +39,18 @@ body {
 
 .info-items {
     position: relative;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+
     top: -350px;
     top: -18.23vw;
 
     margin-left: 380px;
     margin-left: 19.8vw;
 
-    text-align: left;
-    font-family: 'Roboto', sans-serif;
-    overflow: hidden;
-    height: 600px;
+    height: 800px;
+    height: 42vw;
 }
 
 .info-item {
