@@ -3,16 +3,10 @@ body {
 }
 
 .bg_logo {
-    z-index: -3;
     width: 100%;
-    float: right;
-    position: relative;
 
     top: -77px;
     top: -30vw;
-
-    /*Makes menu clickable*/
-    pointer-events: none;
 }
 
 /*
@@ -37,20 +31,11 @@ body {
 /*
 * Main info
 */
-/*TODO : remove duplicates*/
 .info-block {
-    position: relative;
-
-    padding-top: 26%;
-
-    padding-left: 215px;
-    padding-left: 11.198vw;
-
-    text-align: left;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
 }
 
+/*TODO : remove duplicates*/
 .info-block > h1 {
     font-weight: 700;
 

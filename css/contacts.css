@@ -3,9 +3,7 @@ body {
 }
 
 .bg_logo {
-    z-index: -2;
     width: 43%;
-    float: right;
 
     margin-top: 30px;
     margin-top: -1.56vw;
@@ -15,14 +13,7 @@ body {
 * Main info
 */
 .info-block {
-    padding-top: 26%;
-
-    padding-left: 215px;
-    padding-left: 11.198vw;
-
-    text-align: left;
     color: white;
-    font-family: 'Roboto', sans-serif;
 }
 
 .info-block > h1 {

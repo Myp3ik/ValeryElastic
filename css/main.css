@@ -73,6 +73,18 @@ a:hover {
     height: 41.58333333333333%;
     z-index: -1;
     margin: 0;
+
+    /*Makes menu clickable*/
+    pointer-events: none;
+}
+
+.bg_logo {
+    position: relative;
+    z-index: -2;
+    float: right;
+
+    /*Makes menu clickable*/
+    pointer-events: none;
 }
 
 .menu-nav {
@@ -135,6 +147,20 @@ a:hover {
 .nav > li > a {
     padding: 13px 16px 13px 16px;
     padding: 0.677vw 0.833vw 0.677vw 0.833vw;
+}
+
+/*
+ * Main info
+ */
+.info-block {
+    position: relative;
+    margin-top: 26%;
+
+    margin-left: 215px;
+    margin-left: 11.198vw;
+
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
 }
 
 hr {

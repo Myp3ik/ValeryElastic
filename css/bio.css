@@ -10,9 +10,7 @@ body {
 }
 
 .bg_logo {
-    z-index: -2;
     width: 39%;
-    float: right;
 
     margin-top: -80px;
     margin-top: -4.15vw;
@@ -22,8 +20,8 @@ body {
 }
 
 /*
-* Menu
-*/
+ * Menu
+ */
 .menu-nav > li > a {
     color: black;
 }
@@ -39,17 +37,10 @@ body {
 }
 
 /*
-* Main info
-*/
+ * Main info
+ */
 .info-block {
-    padding-top: 26%;
-
-    padding-left: 215px;
-    padding-left: 11.198vw;
-
-    text-align: left;
     color: black;
-    font-family: 'Roboto', sans-serif;
 }
 
 .info-block > h1 {

@@ -4,18 +4,12 @@ body {
 
 .bg_logo {
     width: 47%;
-    float: right;
-
-    position: relative;
 
     top: -77px;
     top: -4vw;
 
     right: 400px;
     right: 21vw;
-
-    /*Makes menu clickable*/
-    pointer-events: none;
 }
 
 /*
@@ -40,18 +34,11 @@ body {
 /*
 * Main info
 */
-/*TODO : remove duplicates*/
 .info-block {
-    padding-top: 26%;
-
-    padding-left: 215px;
-    padding-left: 11.198vw;
-
-    text-align: left;
     color: black;
-    font-family: 'Roboto', sans-serif;
 }
 
+/*TODO : remove duplicates*/
 .info-block > h1 {
     font-weight: 700;
 
