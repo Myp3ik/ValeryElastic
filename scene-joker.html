@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ValeryElastic</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/scene-joker.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i|Roboto:300">
+
+    <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body onload="onLoad()">
+
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+            <div class="base-header">
+                <div class="inner">
+                    <img class="text-logo unselectable" src="img/logo-scene-joker.png"/>
+                    <nav>
+                        <ul class="nav menu-nav">
+                            <li class="active"><a href="scene-iguana.html">Scène</a></li>
+                            <li><a href="bio.html">Bio</a></li>
+                            <li><a href="#">Awards</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="contacts.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <img class="bg_logo unselectable" src="img/bg-scene-joker.png"/>
+                </div>
+            </div>
+
+            <div class="inner cover info-block">
+                <h1>Joker</h1>
+                <div>
+                    <span class="info-item">
+                        <br/>
+                        <hr/>
+                        <br/>
+                        <p class="sub-menu-body">
+                            His past is a mystery.
+                            His present is hidden behind
+                            a mask with a crooked smile.
+                            His future is an endless game,
+                            where he can play any role.
+                        </p>
+                        <br/>
+                        <span class="scene-arrow-left" onclick="prevScene(2)"></span>
+                        <span class="scene-arrow-right" onclick="nextScene(2)"></span>
+                    </span>
+                </div>
+            </div>
+
+            <footer id="footer-html" class="base-footer">
+                <script>
+                    $("#footer-html").load("footer.html");
+                </script>
+            </footer>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
