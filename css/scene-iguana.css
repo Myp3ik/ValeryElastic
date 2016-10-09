@@ -39,6 +39,7 @@ body {
 */
 /*TODO : remove duplicates*/
 .info-block {
+    position: relative;
     padding-top: 26%;
 
     padding-left: 215px;
