@@ -1,0 +1,123 @@
+body {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+/*
+ * Menu
+ */
+.menu-nav > li > a {
+    color: black;
+}
+
+.menu-nav > .active:after {
+    content: "";
+    position: absolute;
+    left: 1.8vw;
+    border-top: 0.833vw solid #fff200;
+    border-right: 0.677vw solid transparent;
+    border-left: 0.677vw solid transparent;
+    border-bottom: 0.677vw solid transparent;
+}
+
+/*
+ * Main info
+ */
+.info-block {
+    color: black;
+}
+
+.info-block > h1 {
+    font-weight: 700;
+
+    font-size: 58px;
+    font-size: 3.02vw;
+
+    line-height: 96px;
+    line-height: 5vw;
+}
+
+.info-items {
+    position: relative;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+
+    top: -350px;
+    top: -18.23vw;
+
+    margin-left: 380px;
+    margin-left: 19.8vw;
+
+    height: 800px;
+    height: 42vw;
+}
+
+.info-item {
+    padding: 0;
+    font-weight: 300;
+
+    font-size: 20px;
+    font-size: 1.04vw;
+
+    float: left;
+
+    width: 500px;
+    width: 26vw;
+
+    margin-bottom: 215px;
+    margin-bottom: 11.2vw;
+
+}
+
+.sub-menu-header {
+    line-height: 30px;
+    line-height: 1.46vw;
+
+    font-size: 30px;
+    font-size: 1.56vw;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.sub-menu-body {
+    width: 15vw;
+    color: #3f3f3f;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+    font-size: 20px;
+    font-size: 1.04vw;
+
+    line-height: 28px;
+    line-height: 1.5vw;
+}
+
+.sub-menu-body + br + p {
+    color: #767678;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+
+    font-size: 17px;
+    font-size: 0.885vw;
+
+    line-height: 23px;
+    line-height: 1.2vw;
+}
+
+/*
+ * Footer
+ */
+.base-footer {
+    color: #3c3c3c;
+}
+
+.base-footer a {
+    color: #3c3c3c;
+}
+
+.base-footer a:hover {
+    color: #000;
+}

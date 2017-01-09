@@ -1,0 +1,116 @@
+body {
+    background: rgba(180, 181, 183, 1);
+    background: -moz-linear-gradient(45deg, rgba(180, 181, 183, 1) 0%, rgba(236, 237, 239, 1) 52%, rgba(248, 248, 248, 1) 80%, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(180, 181, 183, 1)), color-stop(52%, rgba(236, 237, 239, 1)), color-stop(80%, rgba(248, 248, 248, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
+    background: -webkit-linear-gradient(45deg, rgba(180, 181, 183, 1) 0%, rgba(236, 237, 239, 1) 52%, rgba(248, 248, 248, 1) 80%, rgba(255, 255, 255, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(180, 181, 183, 1) 0%, rgba(236, 237, 239, 1) 52%, rgba(248, 248, 248, 1) 80%, rgba(255, 255, 255, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(180, 181, 183, 1) 0%, rgba(236, 237, 239, 1) 52%, rgba(248, 248, 248, 1) 80%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(45deg, rgba(180, 181, 183, 1) 0%, rgba(236, 237, 239, 1) 52%, rgba(248, 248, 248, 1) 80%, rgba(255, 255, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4b5b7', endColorstr='#ffffff', GradientType=1);
+}
+
+.bg_logo {
+    width: 39%;
+
+    margin-top: -80px;
+    margin-top: -4.15vw;
+
+    margin-right: 190px;
+    margin-right: 9.9vw;
+}
+
+/*
+ * Menu
+ */
+.menu-nav > li > a {
+    color: black;
+}
+
+.menu-nav > .active:after {
+    content: "";
+    position: absolute;
+    left: 1.0vw;
+    border-top: 0.833vw solid #fff200;
+    border-right: 0.677vw solid transparent;
+    border-left: 0.677vw solid transparent;
+    border-bottom: 0.677vw solid transparent;
+}
+
+/*
+ * Main info
+ */
+.info-block {
+    color: black;
+}
+
+.info-block > h1 {
+    font-weight: 700;
+
+    font-size: 58px;
+    font-size: 3.02vw;
+
+    line-height: 96px;
+    line-height: 5vw;
+}
+
+.info-item {
+    padding: 0;
+    font-weight: 300;
+
+    font-size: 20px;
+    font-size: 1.04vw;
+
+    float: left;
+
+    width: 502px;
+    width: 26.15vw;
+}
+
+.sub-menu-body {
+    color: #3f3f3f;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+    font-size: 20px;
+    font-size: 1.04vw;
+
+    line-height: 28px;
+    line-height: 1.5vw;
+}
+
+.sub-menu-body p {
+    color: #767678;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+
+    font-size: 14px;
+    font-size: 0.73vw;
+}
+
+.signature {
+    color: #767678;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+
+    font-size: 28px;
+    font-size: 1.5vw;
+
+    line-height: 42px;
+    line-height: 2.19vw;
+}
+
+/*
+ * Footer
+ */
+.base-footer {
+    color: #3c3c3c;
+}
+
+.base-footer a {
+    color: #3c3c3c;
+}
+
+.base-footer a:hover {
+    color: #fff;
+}

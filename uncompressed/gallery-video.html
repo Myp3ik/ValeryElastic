@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ValeryElastic</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/gallery-video.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i|Roboto:300">
+
+    <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body onload="onLoad()">
+
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+            <div class="base-header">
+                <div class="inner">
+                    <img class="text-logo unselectable" src="img/logo-gallery.png"/>
+                    <nav>
+                        <ul class="nav menu-nav">
+                            <li><a href="scene-iguana.html">Scène</a></li>
+                            <li><a href="bio.html">Bio</a></li>
+                            <li><a href="awards.html">Awards</a></li>
+                            <li class="active"><a href="gallery-photo.html">Gallery</a></li>
+                            <li><a href="contacts.html">Contact</a></li>
+                        </ul>
+                    </nav>
+
+
+                </div>
+                <div class="video-info-block-container">
+                    <div class="video-info-block">
+                        <h1>Gallery</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-items">
+                <iframe class="video-item" src="https://www.youtube.com/embed/GhPmsCoyoPI" frameborder="0" allowfullscreen></iframe>
+                <p>Record attempt</p>
+            </div>
+
+            <footer id="footer-html" class="base-footer">
+                <script>
+                    $("#footer-html").load("footer.html");
+                </script>
+            </footer>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

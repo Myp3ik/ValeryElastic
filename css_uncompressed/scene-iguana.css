@@ -1,0 +1,113 @@
+body {
+    background: #fff;
+}
+
+.bg_logo {
+    width: 53%;
+
+    margin-top: -80px;
+    margin-top: -4.15vw;
+
+    right: 326px;
+    right: 17vw;
+}
+
+/*
+* Menu
+*/
+/*TODO : remove duplicates*/
+
+.menu-nav > li > a {
+    color: black;
+}
+
+.menu-nav > .active:after {
+    content: "";
+    position: absolute;
+    left: 1.56vw;
+    border-top: 0.833vw solid #fff200;
+    border-right: 0.677vw solid transparent;
+    border-left: 0.677vw solid transparent;
+    border-bottom: 0.677vw solid transparent;
+}
+
+/*
+* Main info
+*/
+.info-block {
+    color: black;
+}
+
+/*TODO : remove duplicates*/
+.info-block > h1 {
+    font-weight: 700;
+
+    font-size: 58px;
+    font-size: 3.02vw;
+
+    line-height: 96px;
+    line-height: 5vw;
+}
+
+.info-item {
+    padding: 0;
+    font-weight: 300;
+
+    font-size: 20px;
+    font-size: 1.04vw;
+
+    float: left;
+
+    width: 397px;
+    width: 20.67vw;
+}
+
+.sub-menu-body {
+    color: #3f3f3f;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+    font-size: 20px;
+    font-size: 1.04vw;
+
+    line-height: 28px;
+    line-height: 1.5vw;
+}
+
+.sub-menu-body p {
+    color: #767678;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+
+    font-size: 14px;
+    font-size: 0.73vw;
+}
+
+/*
+ * Arrows
+ */
+.scene-arrow-left::before {
+    border-left-color: #dadada;
+    border-bottom-color: #dadada;
+}
+
+.scene-arrow-right::before {
+    border-right-color: #dadada;
+    border-top-color: #dadada;
+}
+
+/*
+ * Footer
+ */
+.base-footer {
+    color: #3c3c3c;
+}
+
+.base-footer a {
+    color: #3c3c3c;
+}
+
+.base-footer a:hover {
+    color: #000;
+}
