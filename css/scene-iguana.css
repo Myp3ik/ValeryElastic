@@ -88,13 +88,13 @@ body {
  * Arrows
  */
 .scene-arrow-left::before {
-    border-left-color: #dadada;
-    border-bottom-color: #dadada;
+    border-left-color: #303030;
+    border-bottom-color: #303030;
 }
 
 .scene-arrow-right::before {
-    border-right-color: #dadada;
-    border-top-color: #dadada;
+    border-right-color: #303030;
+    border-top-color: #303030;
 }
 
 /*
