@@ -18,7 +18,7 @@ body {
 /*TODO : remove duplicates*/
 
 .menu-nav > li > a {
-    color: black;
+    color: #000;
 }
 
 .menu-nav > .active:after {
@@ -35,7 +35,25 @@ body {
 * Main info
 */
 .info-block {
-    color: black;
+    color: #000;
+}
+
+.pixel-container {
+    width: 1px;
+    height: 1px;
+
+    width: 0.05vw;
+    height: 0.08vh;
+}
+
+.pixel-container > div {
+    position: relative;
+
+    top: 374px;
+    width: 11px;
+
+    top: 19.5vw;
+    width: 5.8vw;
 }
 
 /*TODO : remove duplicates*/
@@ -45,8 +63,8 @@ body {
     font-size: 58px;
     font-size: 3.02vw;
 
-    line-height: 96px;
-    line-height: 5vw;
+    line-height: 60px;
+    line-height: 3.1vw;
 }
 
 .info-item {
