@@ -3,13 +3,9 @@ body {
 }
 
 .bg_logo {
-    width: 53%;
-
-    margin-top: -80px;
-    margin-top: -4.15vw;
-
-    right: 326px;
-    right: 17vw;
+    width: 85%;
+    top: -30vw;
+    right: 10vw;
 }
 
 /*
