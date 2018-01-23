@@ -47,24 +47,6 @@ body {
     width: 14vw;
 }
 
-.pixel-container {
-    width: 1px;
-    height: 1px;
-
-    width: 0.05vw;
-    height: 0.08vh;
-}
-
-.pixel-container > div {
-    position: relative;
-
-    top: 374px;
-    width: 11px;
-
-    top: 19.5vw;
-    width: 5.8vw;
-}
-
 .info-item {
     padding: 0;
     font-weight: 300;

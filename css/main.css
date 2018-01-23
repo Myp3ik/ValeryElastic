@@ -179,6 +179,25 @@ hr {
 /*
  * Arrows
  */
+.pixel-container {
+    width: 1px;
+    height: 1px;
+
+    width: 0.05vw;
+    height: 0.08vh;
+}
+
+.arrow-container {
+    position: relative;
+    z-index: 1;
+
+    top: 374px;
+    width: 11px;
+
+    top: 19.5vw;
+    width: 5.8vw;
+}
+
 .scene-arrow-left::before, .scene-arrow-right::before {
     position: relative;
     content: "";
