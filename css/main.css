@@ -105,8 +105,6 @@ a:hover {
 
 .menu-nav > li > a {
     font-family: 'Roboto', sans-serif;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
-    text-shadow: 0 0.05vw 0.05vw rgba(0, 0, 0, .5);
 
     font-weight: 500;
     color: #fff;
@@ -181,6 +179,22 @@ hr {
 /*
  * Arrows
  */
+.pixel-container {
+    width: 1px;
+    height: 1px;
+
+    width: 0.05vw;
+    height: 0.08vh;
+}
+
+.arrow-container {
+    position: relative;
+    z-index: 1;
+
+    top: 19.5vw;
+    width: 7vw;
+}
+
 .scene-arrow-left::before, .scene-arrow-right::before {
     position: relative;
     content: "";
