@@ -65,7 +65,7 @@ body {
 
     position: relative;
     text-align: left;
-    /*overflow-y: scroll;*/
+    overflow-y: scroll;
 
     height: 883px;
     height: 46vw;
