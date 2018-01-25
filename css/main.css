@@ -191,11 +191,8 @@ hr {
     position: relative;
     z-index: 1;
 
-    top: 374px;
-    width: 11px;
-
     top: 19.5vw;
-    width: 5.8vw;
+    width: 7vw;
 }
 
 .scene-arrow-left::before, .scene-arrow-right::before {
