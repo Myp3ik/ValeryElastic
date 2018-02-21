@@ -57,29 +57,20 @@ body {
  * Videos
  */
 .video-items {
-    top: 134px;
     top: 7vw;
-
-    left: 960px;
-    left: 50vw;
+    left: 66vw;
 
     position: relative;
     text-align: left;
     overflow-y: scroll;
 
-    height: 883px;
-    height: 85vh;
-
-    width: 960px;
-    width: 50vw;
+    height: 87vh;
+    width: 34vw;
 }
 
 .video-item {
-    width: 854px;
-    width: 44.47916667vw;
-
-    height: 480px;
-    height: 25vw;
+    width: 30.22vw;
+    height: 17vw;
 }
 
 .video-item + p {
@@ -92,6 +83,8 @@ body {
 
     line-height: 35px;
     line-height: 1.822916667vw;
+
+    margin-bottom: 3vw;
 }
 
 /*
