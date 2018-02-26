@@ -87,9 +87,12 @@ a:hover {
     pointer-events: none;
 }
 
+/*
+ * Menu navigation
+ */
 .menu-nav {
-    padding: 30px;
-    padding: 1.56vw;
+    padding: 1.56vw 1.56vw 1vw 1.56vw;
+    margin-left: 20vw;
     float: right;
     font-size: 0;
 }
@@ -99,23 +102,17 @@ a:hover {
 }
 
 .menu-nav > li + li {
-    margin-left: 20px;
     margin-left: 1.04vw;
 }
 
 .menu-nav > li > a {
     font-family: 'Roboto', sans-serif;
-
     font-weight: 500;
-    color: #fff;
-    border-bottom: 2px solid transparent;
-    border-bottom: 0.1vw solid transparent;
-
-    font-size: 20px;
     font-size: 1.04vw;
-
-    line-height: 16px;
     line-height: 0.83vw;
+
+    color: #fff;
+    border-bottom: 0.1vw solid transparent;
 }
 
 .menu-nav > li > a:hover,
@@ -143,8 +140,43 @@ a:hover {
 }
 
 .nav > li > a {
-    padding: 13px 16px 13px 16px;
     padding: 0.677vw 0.833vw 0.677vw 0.833vw;
+}
+
+/*
+ * Sub-menu navigation
+ */
+
+.sub-menu-nav {
+    float: right;
+    padding: 0 2.4vw 0 0;
+}
+
+.sub-menu-nav > li {
+    display: inline-block;
+}
+
+.sub-menu-nav > li > a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 0.8vw;
+    line-height: 1vw;
+
+    color: #000;
+    padding-left: 0.4vw;
+    padding-right: 0.4vw;
+    padding-bottom: 0.3vw;
+}
+
+.sub-menu-nav > li > a:hover,
+.sub-menu-nav > li > a:focus {
+    border-bottom: 0.3vw solid #fff200;
+}
+
+.sub-menu-nav > .active > a,
+.sub-menu-nav > .active > a:hover,
+.sub-menu-nav > .active > a:focus {
+    border-bottom: 0.3vw solid #fff200;
 }
 
 /*
@@ -153,8 +185,6 @@ a:hover {
 .info-block {
     position: relative;
     margin-top: 26%;
-
-    margin-left: 215px;
     margin-left: 11.198vw;
 
     text-align: left;
@@ -162,10 +192,7 @@ a:hover {
 }
 
 hr {
-    width: 135px;
     width: 7.03vw;
-
-    height: 8px;
     height: 0.42vw;
 
     background: #fff200;
@@ -180,9 +207,6 @@ hr {
  * Arrows
  */
 .pixel-container {
-    width: 1px;
-    height: 1px;
-
     width: 0.05vw;
     height: 0.08vh;
 }
@@ -200,11 +224,6 @@ hr {
     content: "";
     display: inline-block;
 
-    width: 40.3px;
-    height: 40.3px;
-    margin-top: 9.8px;
-    margin-left: 9.8px;
-
     width: 2.1vw;
     height: 2.1vw;
     margin-top: 0.51vw;
@@ -214,17 +233,11 @@ hr {
 }
 
 .scene-arrow-left::before {
-    border-left: 9.8px solid;
-    border-bottom: 9.8px solid;
-
     border-left: 0.51vw solid;
     border-bottom: 0.51vw solid;
 }
 
 .scene-arrow-right::before {
-    border-right: 9.8px solid;
-    border-top: 9.8px solid;
-
     border-right: 0.51vw solid;
     border-top: 0.51vw solid;
 }

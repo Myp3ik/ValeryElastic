@@ -1,5 +1,5 @@
 function onLoad() {
-    setLang(0); //Englsh
+    setLang(0); //English
 }
 
 function setLang(langId) {
@@ -18,12 +18,24 @@ function setLang(langId) {
     }
 }
 
-var scenes = ["scene-iguana.html", "scene-bourgeois.html", "scene-pierrot.html", "scene-tarzan.html", "scene-joker.html"];
+var scenes = [
+    "scene-iguana.html",
+    "scene-grinch.html",
+    "scene-romantic.html",
+    "scene-pierrot.html",
+    "scene-bourgeois.html",
+    "scene-joker.html",
+    "scene-tarzan.html"
+];
 
-function prevScene(current) {
-    window.location.href = scenes[(scenes.length + current - 1) % scenes.length];
+function prevScene() {
+    var pageName = window.location.pathname.split("/").pop();
+
+    window.location.href = scenes[(scenes.length + scenes.indexOf(pageName) - 1) % scenes.length];
 }
 
-function nextScene(current) {
-    window.location.href = scenes[(scenes.length + current + 1) % scenes.length];
+function nextScene() {
+    var pageName = window.location.pathname.split("/").pop();
+
+    window.location.href = scenes[(scenes.length + scenes.indexOf(pageName) + 1) % scenes.length];
 }
