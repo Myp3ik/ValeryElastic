@@ -58,14 +58,19 @@ body {
  */
 .video-items {
     top: 7vw;
-    left: 66vw;
 
     position: relative;
-    text-align: left;
     overflow-y: scroll;
 
+    padding-right: 3vw;
     height: 87vh;
-    width: 34vw;
+    width: 100vw;
+}
+
+.video-items > div {
+    float: right;
+    text-align: left;
+    width: 30.22vw;
 }
 
 .video-item {
@@ -77,11 +82,7 @@ body {
     color: #3f3f3f;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-
-    font-size: 20px;
     font-size: 1.041667vw;
-
-    line-height: 35px;
     line-height: 1.822916667vw;
 
     margin-bottom: 3vw;
