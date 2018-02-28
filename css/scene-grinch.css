@@ -14,7 +14,7 @@ body {
 /*TODO : remove duplicates*/
 
 .menu-nav > li > a {
-    color: black;
+    color: #000;
 }
 
 .menu-nav > .active:after {
@@ -31,7 +31,7 @@ body {
 * Main info
 */
 .info-block {
-    color: black;
+    color: #000;
 }
 
 /*TODO : remove duplicates*/
@@ -46,11 +46,9 @@ body {
 .info-item {
     padding: 0;
     font-weight: 300;
-
     font-size: 1.04vw;
 
     float: left;
-
     width: 13.6vw;
 }
 

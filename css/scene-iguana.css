@@ -37,24 +37,16 @@ body {
 /*TODO : remove duplicates*/
 .info-block > h1 {
     font-weight: 700;
-
-    font-size: 58px;
     font-size: 3.02vw;
-
-    line-height: 60px;
     line-height: 3.1vw;
 }
 
 .info-item {
     padding: 0;
     font-weight: 300;
-
-    font-size: 20px;
     font-size: 1.04vw;
 
     float: left;
-
-    width: 397px;
     width: 20.67vw;
 }
 
@@ -63,11 +55,7 @@ body {
 
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-
-    font-size: 20px;
     font-size: 1.04vw;
-
-    line-height: 28px;
     line-height: 1.5vw;
 }
 
@@ -75,8 +63,6 @@ body {
     color: #767678;
     font-family: 'Libre Baskerville', serif;
     font-style: italic;
-
-    font-size: 14px;
     font-size: 0.73vw;
 }
 
