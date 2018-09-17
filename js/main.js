@@ -21,7 +21,6 @@ function setLang(langId) {
 var scenes = [
     "scene-iguana.html",
     "scene-grinch.html",
-    "scene-romantic.html",
     "scene-pierrot.html",
     "scene-bourgeois.html",
     "scene-joker.html",
